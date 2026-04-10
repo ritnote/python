@@ -1,2 +1,15 @@
-Hello
-how are you
+Remove empty strings from the list of strings
+list1 = ["Mike", "", "Emma", "Kelly", "", "Brad"]
+
+# remove None from list1 and convert result into list
+res = list(filter(None, list1))
+print(res)
+---------------------------------
+Remove all occurrences of a specific item from a list
+
+list1 = [5, 20, 15, 20, 25, 50, 20]
+[i for i in sample_list if i != 20]
+while 20 in list1:
+    list1.remove(20)
+print(list1)
+---------------------------------------
